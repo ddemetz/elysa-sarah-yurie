@@ -1,0 +1,457 @@
+
+
+/* Home Page CSS */
+
+body {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #FFFFFF;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  background-color: #6D6875;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.herworld {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  color: #F8F4E3;
+  padding-left: 50px;
+  padding-right: 250px;
+  text-decoration: none;
+}
+
+a, a:visited, a:hover, a:active {
+  color: #F8F4E3;
+  text-decoration: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.click {
+  width: 200px;
+  padding-left: 40px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #F8F4E3;
+  background-color: #6D6875;
+  border: 0px solid #6D6875;
+}
+
+.bolded-font {
+  font-weight: bolder;
+}
+/* .regular-font {
+  font-weight: 
+} */
+.mission-box {
+  font-family: 'Montserrat';
+  position: relative;
+  width: 600px;
+  height: 300px;
+  left: 40px;
+  top: 168px;
+  background: #D9B3BA;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  text-align: center;
+  margin-left: -10px;
+}
+
+.mission-statement {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 37px;
+  text-align: center;
+  color: #13070C;
+}
+
+.mission-text {
+  margin-top: -25px;
+  line-height: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.slideshow {
+  position: absolute;
+  object-fit: cover;
+  width: 525px;
+  height: 200px;
+  margin-right: 40px;
+  left: 700px;
+  top: 168px;
+  /* background: #D6E5E3; */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+ }
+
+.dots {
+  display: flex;
+  justify-content: space-around;
+  z-index: 100;
+  width: 600px;
+  height: 125px;
+  align-items: center;
+  padding-top: 25px;
+  margin-left: 20px;
+}
+
+.dot {
+  z-index: 100;
+  height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  object-fit: cover;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: 40;
+  display: inline;
+}
+
+.test {
+  height: 125px;
+  margin-top: 205px;
+  margin-left: 40px;
+  width: 600px;
+}
+
+img {
+  border-radius: circular;
+}
+
+.resources {
+  width: 475px;
+  height: 300px;
+  margin-left: 700px;
+  margin-right: 10px;
+  margin-top: -20px;
+  left: 923px;
+  font-family: 'Montserrat';
+  background: #D9B3BA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px; 
+  margin-bottom: 80px;
+  text-align: center;
+  padding: 10px;
+}
+
+.girls-who-code {
+  object-fit: cover;
+  height: 100px;
+  width: auto;
+}
+
+.built-by-girls {
+  object-fit: cover;
+  height: 100px;
+  width: auto;
+}
+
+.resource-gwc {
+  display: flex; 
+  justify-content: flex-start;
+  
+}
+
+.resource-bbg {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.extra {
+  font-family: 'Montserrat';
+  position: absolute;
+  width: 650px;
+  height: 204px;
+  /* left: 40px; */
+  margin-top: 35px;
+  background: #FFFFFF;
+  border: 3px solid #D6E5E3;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.current{
+  font-style: bold;
+}
+
+.txt-dot {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 12px;
+}
+
+footer {
+  position: absolute;
+  background: #6D6875;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0px;
+  margin-left: -40px;
+}
+
+h5 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #F8F4E3;
+  text-decoration: none;
+INFO
+
+ /*  GENERAL PAGE CSS */
+
+ .general {
+   position: absolute;
+  width: 498px;
+  height: 805px;
+  left: 23px;
+  top: 186px;
+  background: #D6E5E3;
+  border-radius: 41px;
+ }
+
+.info-title {
+  position: absolute;
+  width: 700px;
+  height: 195px;
+  left: 550px;
+  top: 50px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 90px;
+  line-height: 133px;
+  text-align: center;
+  color: #D9B3BA;
+}
+
+.industry-dots {
+  position: absolute;
+  top: 500px;
+  /* right: 1000px; */
+  margin-left: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.icon {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.stem-text {
+  float: right;
+}
+
+.entertainment-text {
+  float: right;
+}
+
+/* INDUSTRY CSS */
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 50;
+  font-family: 'Playfair Display';
+  height: 71px;
+  text-align: center;
+  background: #D9B3BA;
+  margin-top: 100px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 50px;
+}
+
+.industry-stats {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.general-industry-stats {
+  position: absolute;
+  display: block;
+  width: 720px;
+  height: 415px;
+  left: 45px;
+  top: 240px;
+  background: #D6E5E3;
+  text-align: center;
+  font-family: 'Montserrat';
+  padding-top: 10px;
+}
+
+.minority-industry-stats {
+  display: block;
+  margin-left: -270px;
+  margin-right: 0px;
+  position: absolute;
+  width: 420px;
+  height: 415px;
+  left: 1070px;
+  top: 240px;
+  background: #D9B3BA;
+  text-align: center;
+  font-family: 'Montserrat';
+  padding-top: 10px;
+}
+
+.example-women {
+  position: absolute;
+  width: 50%;
+  height: 37px;
+  left: 155px;
+  top: 687px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 53px;
+  text-align: center;
+  color: #000000;
+}
+
+/* MINI GAME CSS */
+.question{
+	font-weight: 600;
+}
+.answers {
+  margin-bottom: 20px;
+}
+.answers label{
+  display: block;
+}
+#submit{
+	font-family: 'Montserrat';
+	font-size: 20px;
+	background-color:  #D6E5E3;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#submit:hover{
+	background-color: #5a8c85;
+}
+
+.game1{
+  background-color: #D9B3BA;
+  width: 600px;
+  height: 800px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  text-align: center;
+  color: #13070C;
+  position: relative;
+  margin-top: 150px;
+  margin-left: 40px;
+}
+
+button{
+  font-family: 'Montserrat';
+  background-color:  #D6E5E3;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+}
+
+.content {
+  margin: 10px auto;
+  width: 400px;
+}
+
+.user-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  background: #6D6875;
+}
+
+.name {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
+
+.submit-btn {
+  width: 300px;
+  padding: 5px;
+  margin: 5px auto 25px auto;
+  background: #D6E5E3;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 100%;
+}
+
+.card-container {
+  padding: 30px;
+  background: #6D6875;
+}
+
+.name-card {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 300px;
+  background: #fff;
+}
+
+.comments{
+  background-color: #D6E5E3;
+  height: auto;
+  width: 500px;
+  position: relative;
+  margin-left: 80px;
+  margin-top: 150px;
+} 
+
+.game-page{
+  display: flex;
+}
+
+.mySlides{
+  display: flex;
+}
+
