@@ -1,5 +1,4 @@
 
-
 /* Home Page CSS */
 
 body {
@@ -63,9 +62,10 @@ a, a:visited, a:hover, a:active {
 .bolded-font {
   font-weight: bolder;
 }
-/* .regular-font {
-  font-weight: 
-} */
+.regular-font {
+  font-weight: regular;
+}
+
 .mission-box {
   font-family: 'Montserrat';
   position: relative;
@@ -103,9 +103,9 @@ a, a:visited, a:hover, a:active {
   object-fit: cover;
   width: 525px;
   height: 200px;
-  margin-right: 40px;
-  left: 700px;
-  top: 168px;
+  margin-right: 80px;
+  left: 750px;
+  top: 240px;
   /* background: #D6E5E3; */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 12px;
@@ -152,9 +152,9 @@ img {
 .resources {
   width: 475px;
   height: 300px;
-  margin-left: 700px;
+  margin-left: 775px;
   margin-right: 10px;
-  margin-top: -20px;
+  margin-top: -205px;
   left: 923px;
   font-family: 'Montserrat';
   background: #D9B3BA;
@@ -190,11 +190,11 @@ img {
 
 .extra {
   font-family: 'Montserrat';
-  position: absolute;
-  width: 650px;
+  position: relative;
+  width: 600px;
   height: 204px;
-  /* left: 40px; */
-  margin-top: 35px;
+  left: 40px;
+  margin-top: 95px;
   background: #FFFFFF;
   border: 3px solid #D6E5E3;
   box-sizing: border-box;
@@ -221,7 +221,16 @@ footer {
   text-align: center;
   width: 100%;
   margin-bottom: 0px;
-  margin-left: -40px;
+}
+
+body.industry footer {
+  top: 1500px;
+}
+body.game footer {
+  top: 1200px;
+}
+body.general-footer footer {
+  top: 1100px;
 }
 
 h5 {
@@ -231,44 +240,59 @@ h5 {
   font-size: 24px;
   color: #F8F4E3;
   text-decoration: none;
-INFO
+}
+
 
  /*  GENERAL PAGE CSS */
 
  .general {
-   position: absolute;
+  position: absolute;
   width: 498px;
-  height: 805px;
+  height: 900px;
   left: 23px;
   top: 186px;
   background: #D6E5E3;
   border-radius: 41px;
+  margin-bottom: 100px;
  }
 
-.info-title {
-  position: absolute;
-  width: 700px;
-  height: 195px;
-  left: 550px;
-  top: 50px;
+.general-facts {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 45px;
+  font-family: 'Montserrat';
+  color: #6D6875;
+  font-size: 22px;
+
+}
+.women-workforce .info-title {
   font-family: Playfair Display;
   font-style: normal;
   font-weight: normal;
-  font-size: 90px;
-  line-height: 133px;
+  font-size: 60px;
+  line-height: 72px;
   text-align: center;
   color: #D9B3BA;
+  flex: 1 0 100%;
+  margin: 0 0 100px 0;
+}
+
+.women-workforce {
+  position: absolute;
+  top: 110px;
+  left: 600px;
+  display: flex;
+  right: 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .industry-dots {
-  position: absolute;
-  top: 500px;
-  /* right: 1000px; */
-  margin-left: 600px;
   display: flex;
-  align-items: center;
-  flex-direction: row;
+  flex-direction: column;
+  flex: 0 0 150px;
 }
+
 .icon {
   width: 150px;
   height: 150px;
@@ -276,12 +300,20 @@ INFO
   object-fit: cover;
 }
 
-.stem-text {
-  float: right;
+.entertainment-icon {
+  font-family: 'Montserrat';
+  text-align: center;
+  padding: 20px;
 }
 
-.entertainment-text {
-  float: right;
+.stem-icon {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.working-women {
+  height: 700px;
+  margin-top: 50px;
 }
 
 /* INDUSTRY CSS */
@@ -307,46 +339,93 @@ INFO
 }
 
 .general-industry-stats {
-  position: absolute;
-  display: block;
-  width: 720px;
-  height: 415px;
-  left: 45px;
-  top: 240px;
+  width: 40%;
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
   background: #D6E5E3;
   text-align: center;
   font-family: 'Montserrat';
-  padding-top: 10px;
+  padding: 15px;
+  line-height: 18px;
+  font-size: 15px;
 }
 
 .minority-industry-stats {
-  display: block;
-  margin-left: -270px;
+  /* display: block;
+  margin-left: -250px;
   margin-right: 0px;
   position: absolute;
-  width: 420px;
-  height: 415px;
+  width: 600px;
+  height: 400px;
   left: 1070px;
-  top: 240px;
+  top: 240px; */
+  display: flex;
+  flex-direction: column;
   background: #D9B3BA;
   text-align: center;
   font-family: 'Montserrat';
-  padding-top: 10px;
+  line-height: 20px;
+  padding: 15px;
+  width: 40%;
+  margin: 5%;
+}
+.first-hand {
+  font-family: 'Montserrat';
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  /* border: 2px red solid; */
+  width: 40%;
+  margin: 5%;
+  text-align: center;
 }
 
-.example-women {
-  position: absolute;
-  width: 50%;
-  height: 37px;
-  left: 155px;
-  top: 687px;
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 53px;
+.pics-contain{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-pic{
+  display:flex;
+  flex-direction: column;
+  margin: 5%;
+}
+
+.combined-pics{
+  display:flex;
+  flex-direction: row;
+}
+
+.first-hand-title{
+  font-size: 20px;
+  align-items: flex-start;
   text-align: center;
-  color: #000000;
+}
+
+.first-text{
+  text-align: center;
+  font-size: 12px;
+}
+
+.first-hand-dot{
+  align-items: center;
+}
+
+.women-dot {
+  z-index: 100;
+  height: 200px;
+  width: 200px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  object-fit: cover; 
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  position: relative;
 }
 
 /* MINI GAME CSS */
@@ -389,10 +468,11 @@ INFO
 
 button{
   font-family: 'Montserrat';
-  background-color:  #D6E5E3;
+  background-color: #D6E5E3;
 	color: #fff;
 	border: 0px;
 	border-radius: 3px;
+  cursor: pointer; 
 }
 
 .content {
@@ -403,7 +483,8 @@ button{
 .user-input {
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 150px;
+  height: 300px;
   background: #6D6875;
 }
 
@@ -438,14 +519,26 @@ button{
   background: #fff;
 }
 
+.combined{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
 .comments{
   background-color: #D6E5E3;
   height: auto;
   width: 500px;
-  position: relative;
-  margin-left: 80px;
+  position: absolute;
   margin-top: 150px;
+  margin-right: 40px;
+  /* display: block; */
 } 
+
+.funMessage {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: 'Montserrat';
+}
 
 .game-page{
   display: flex;
@@ -455,3 +548,42 @@ button{
   display: flex;
 }
 
+
+
+/* Hover Image */
+
+.image{
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  cursor: pointer;
+}
+
+.img-pic:hover .image {
+  opacity: 0.3;
+}
+
+.img-pic:hover .middle {
+  opacity: 1;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text {
+  font-family: 'Montserrat';
+  background-color: #6D6875;
+  color: white;
+  font-size: 12px;
+  padding: 10px 10px;
+  position: absolute;
+  margin-top: -150px;
+}

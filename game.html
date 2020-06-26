@@ -15,7 +15,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
     <script src="/script.js" defer></script>
   </head>  
-<body>
+<body class="game">
   <nav>
     <h1 class="herworld"><a href="/index.html">Her World</a></h1>
     <section class="buttons">
@@ -24,25 +24,38 @@
       <a href="game.html" class="click bolded-font">Mini-Game</a>
     </section>
   </nav>
+
+  <section class="combined">
   <section class="game-page">
   <article class="game1">
     <h1>Multiple Choice Quiz!</h1>
+
+    <!-- actual quiz here -->
     <div id="quiz"></div>
     <button id="submit">Submit Quiz</button>
     <div id="results"></div>
+
     <p>ps... if you got some wrong, go back and fix them!<br> If you have them all right, press on the fun facts button!</p>
     <button class="facts">Related Fun Facts!</button>
-    <h1 class="message"></h1>
+    <h1 class="funMessage"></h1>
   </article>
   </section>
-  <article class="comments">
-    <form class="user-input">
-        <input class="name" type="text" placeholder="Your Name/Score/How many tries it took!">
-        <input class="submit-btn" type="submit" value="Comment">
+  
+  <article class="content">
+      <form class="user-input">
+        <input class="name" type="text" placeholder="Name/Score/How Many Tries">
+        <input class="submit-btn" type="submit" value="Comment!">
       </form>
       <section class="card-container">
+        
+      </section>
   </article>
-  <section>
-  </body>
+  </section>
+  
+    <footer>
+      <h5>Kode with Klossy 2020</h5>
+  </footer>
   <script src="script.js"></script>
+  <script src="game.js"></script>
+  </body>
 </html>
